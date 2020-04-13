@@ -3,9 +3,9 @@ def join_nested_strings(src)
   # Combine all Strings present in the AoA into a single value and return it
   row_index = 0 
   string_array = []
-  while row_index < src.size do
+  while row_index < src.size
   element_index = 0 
-    while element_index < src[row_index].size 
+    while element_index < src[row_index].size
       if src[row_index][element_index].class == String
          string_array << src[row_index][element_index]
       end 
