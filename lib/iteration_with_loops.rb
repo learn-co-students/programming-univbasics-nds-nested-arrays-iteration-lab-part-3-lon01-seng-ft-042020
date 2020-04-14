@@ -6,6 +6,7 @@ def join_nested_strings(src)
     array.each{ |item|
       if item.is_A?(string)
         result_array.push(item)
+      end
     }
   }
   result_array.join(" ")
