@@ -4,7 +4,7 @@ def join_nested_strings(src)
   result_array =[]
   src.each{ |array|
     array.each{ |item|
-      if item.is_A?(string)
+      if item.is_a?(String)
         result_array.push(item)
       end
     }
